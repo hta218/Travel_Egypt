@@ -14,7 +14,6 @@ select_mode = pygame.mixer.Sound('Sound/Click/select_mode.wav')
 move_level = pygame.mixer.Sound('Sound/Click/move_level.wav')
 block_move = pygame.mixer.Sound('Sound/Click/block_move.wav')
 nope = pygame.mixer.Sound('Sound/Special/nope.wav')
-quit_sound = pygame.mixer.Sound('Sound/Special/quit.wav')
 
 class Game:
     def __init__(self, map):
@@ -46,8 +45,7 @@ class Game:
         screen.blit(letsgo, (450, 253))
 
     def quit(self):
-        quit_sound.play()
-        sleep(6)
+        sleep(1)
         pygame.quit()
         sys.exit(1)
 
@@ -188,7 +186,7 @@ class Game:
                 else:
                     nope.play()
             elif 840 <= x <= 840 + quit.get_width() and 630 <= y <= 630 + quit.get_height():
-                block_move.play()
+                move_level.play()
                 screen.blit(quit_click, (840, 630))
                 pygame.display.flip()
                 sleep(0.3)

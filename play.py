@@ -5,7 +5,7 @@ from game import Game
 from map import Map
 
 ################################################# init pyGame
-os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (20, 50)
+os.environ['SDL_VIDEO_WINDOW_POS'] = "%d,%d" % (20, 40)
 pygame.init()
 screen = pygame.display.set_mode((1050, 700))
 pygame.display.set_caption("Travel Egypt")
@@ -42,3 +42,5 @@ while playing:
                     game.loop(screen, event)
 
     pygame.display.flip()
+
+
