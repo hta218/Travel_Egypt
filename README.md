@@ -1,5 +1,10 @@
 # Travel Egypt Picture Puzzle 🎮 🎲
 
+<div style="display: flex">
+<img src="https://i.imgur.com/T04hFvm.png" title="source: imgur.com" />
+<img src="https://i.imgur.com/zHDu0Oc.png" title="source: imgur.com" />
+<img src="https://i.imgur.com/px64MLs.png" title="source: imgur.com" />
+</div>
 
 # Installation
 
