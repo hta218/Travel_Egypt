@@ -13,6 +13,6 @@
 * `git clone https://github.com/hta218/Travel_Egypt.git && cd Travel_Egypt`
 * `python play.py` or `python3 play.py` (If you have multiple python verions in your device)
 
-Or download it [here](https://goo.gl/eLARP5), install and open Travel Egypt in your desktop
+Or download it [here](https://drive.google.com/file/d/0B5hoMZ7FOBHzanlCX0pnbkVYVTg/view?usp=sharing&resourcekey=0-dZe_X8Dyfnz2lrLK9labfQ), install and open Travel Egypt on your desktop
 
 Enjoy 🙉🙉
